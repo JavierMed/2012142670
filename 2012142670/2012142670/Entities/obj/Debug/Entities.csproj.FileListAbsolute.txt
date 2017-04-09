@@ -1,0 +1,4 @@
+C:\Users\JavierMedina\Documents\Programacion I\2012142670\2012142670\Entities\bin\Debug\Entities.dll
+C:\Users\JavierMedina\Documents\Programacion I\2012142670\2012142670\Entities\bin\Debug\Entities.pdb
+C:\Users\JavierMedina\Documents\Programacion I\2012142670\2012142670\Entities\obj\Debug\Entities.dll
+C:\Users\JavierMedina\Documents\Programacion I\2012142670\2012142670\Entities\obj\Debug\Entities.pdb
