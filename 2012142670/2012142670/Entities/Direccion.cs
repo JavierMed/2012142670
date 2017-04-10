@@ -8,5 +8,8 @@ namespace Entities
 {
     class Direccion
     {
+        string direccion;
+
+        
     }
 }

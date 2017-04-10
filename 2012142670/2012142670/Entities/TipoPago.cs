@@ -8,5 +8,10 @@ namespace Entities
 {
     class TipoPago
     {
+        string tipoPago;
+        public TipoPago(string tipo)
+        {
+            tipoPago = tipo;
+        }
     }
 }

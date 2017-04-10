@@ -8,5 +8,16 @@ namespace Entities
 {
     public class Evaluacion
     {
+        
+        public Evaluacion() {
+            
+          
+        }
+
+        public void AgregarTipoPlan(string tipo){
+            new Plan
+                //Add(new TipoPlan(tipo));
+            
+        }
     }
 }

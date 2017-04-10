@@ -11,6 +11,7 @@ namespace _2012142670
     {
         static void Main(string[] args)
         {
+            var 
             Console.WriteLine("Hola como estas");
         }
     }

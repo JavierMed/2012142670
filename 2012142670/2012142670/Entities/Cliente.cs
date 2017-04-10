@@ -8,5 +8,14 @@ namespace Entities
 {
     class Cliente
     {
+        public string nombre;
+        public string dni;
+        public string sueldo;
+
+        public Cliente(string nom,string dni,string sueldo){
+            nombre = nom;
+            this.dni = dni;
+            this.sueldo = sueldo;
+        }
     }
 }

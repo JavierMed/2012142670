@@ -8,5 +8,7 @@ namespace Entities
 {
     class EstadoEvaluacion
     {
+        public bool estado=true;
+
     }
 }

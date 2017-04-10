@@ -8,5 +8,7 @@ namespace Entities
 {
     class Provincia
     {
+        string nombreProvincia { get; set; }
+
     }
 }

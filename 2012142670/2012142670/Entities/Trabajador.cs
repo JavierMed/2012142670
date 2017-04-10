@@ -8,5 +8,15 @@ namespace Entities
 {
     class Trabajador
     {
+        public string codTrabajador;
+        public string nombre;
+        public string tipoTraba;
+
+        public Trabajador(string cod,string nom,string tipo)
+        {
+            codTrabajador = cod;
+            nombre = nom;
+            tipoTraba = tipo;
+        }
     }
 }

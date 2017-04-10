@@ -8,5 +8,11 @@ namespace Entities
 {
     class TipoPlan
     {
+        string plan { get; set; }
+
+       public TipoPlan(string tipo){
+            plan = tipo;
+        }
     }
 }
+

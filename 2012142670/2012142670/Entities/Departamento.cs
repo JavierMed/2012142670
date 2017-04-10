@@ -8,5 +8,6 @@ namespace Entities
 {
     class Departamento
     {
+        string nombreDepartamento { get; set; }
     }
 }
