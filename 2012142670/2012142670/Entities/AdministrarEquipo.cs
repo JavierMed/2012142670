@@ -10,5 +10,11 @@ namespace Entities
     {
         int stockModelo;
         string modelo;
+
+        public AdministrarEquipo(int stockModelo, string modelo)
+        {
+            this.stockModelo = stockModelo;
+            this.modelo = modelo;
+        }
     }
 }

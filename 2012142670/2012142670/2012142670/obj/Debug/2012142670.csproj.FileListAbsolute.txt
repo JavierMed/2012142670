@@ -6,3 +6,8 @@ C:\Users\JavierMedina\Documents\Programacion I\2012142670\2012142670\2012142670\
 C:\Users\JavierMedina\Documents\Programacion I\2012142670\2012142670\2012142670\2012142670\bin\Debug\2012142670.exe.config
 C:\Users\JavierMedina\Documents\Programacion I\2012142670\2012142670\2012142670\2012142670\obj\Debug\2012142670.exe
 C:\Users\JavierMedina\Documents\Programacion I\2012142670\2012142670\2012142670\2012142670\obj\Debug\2012142670.pdb
+C:\Users\JavierMedina\Documents\Programacion I\2012142670\2012142670\2012142670\2012142670\bin\Debug\2012142670.exe
+C:\Users\JavierMedina\Documents\Programacion I\2012142670\2012142670\2012142670\2012142670\bin\Debug\2012142670.pdb
+C:\Users\JavierMedina\Documents\Programacion I\2012142670\2012142670\2012142670\2012142670\bin\Debug\Entities.dll
+C:\Users\JavierMedina\Documents\Programacion I\2012142670\2012142670\2012142670\2012142670\bin\Debug\Entities.pdb
+C:\Users\JavierMedina\Documents\Programacion I\2012142670\2012142670\2012142670\2012142670\obj\Debug\2012142670.csprojResolveAssemblyReference.cache

@@ -12,6 +12,7 @@ namespace _2012142670
         static void Main(string[] args)
         {
             var evaluacion = new Evaluacion();
+           
             
             //ingresando datos a las clases
             evaluacion.AgregarCliente("carmen tineo","46151814","1200");
@@ -30,8 +31,19 @@ namespace _2012142670
             evaluacion.AgregarTipoEvaluacion("Linea Nueva");
 
 
+            //evaluar cliente y planes
+            evaluacion.generarEvaluacion(1);
 
-            Console.WriteLine("Hola como estas");
+
+
+
+
+
+
+
+            Console.WriteLine("Profesor no pude terminar todas las clases!!");
+            Console.WriteLine("Sea compasivo");
+
         }
     }
 }
