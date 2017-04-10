@@ -9,5 +9,9 @@ namespace Entities
     class Departamento
     {
         string nombreDepartamento { get; set; }
+        public Departamento(string nomDep)
+        {
+            nombreDepartamento = nomDep;
+        }
     }
 }

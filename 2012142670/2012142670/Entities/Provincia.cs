@@ -9,6 +9,10 @@ namespace Entities
     class Provincia
     {
         string nombreProvincia { get; set; }
+        public Provincia(string nomPro)
+        {
+            nombreProvincia = nomPro;
+        }
 
     }
 }

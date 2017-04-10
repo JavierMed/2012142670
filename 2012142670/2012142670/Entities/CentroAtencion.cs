@@ -8,5 +8,8 @@ namespace Entities
 {
     class CentroAtencion
     {
+        public string nombre;
+        string direc;
+        
     }
 }

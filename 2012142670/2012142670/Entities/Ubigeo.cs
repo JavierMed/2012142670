@@ -8,6 +8,13 @@ namespace Entities
 {
     class Ubigeo
     {
+        public string ubigeo { get; set; }
 
+        public Ubigeo(string distri, string prov, string depart)
+        {
+            new Departamento(depart);
+            new Provincia(prov);
+            new Distrito(distri);
+        }
     }
 }

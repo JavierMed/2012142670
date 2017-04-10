@@ -11,7 +11,12 @@ namespace _2012142670
     {
         static void Main(string[] args)
         {
-            var 
+            var evaluacion = new Evaluacion();
+
+            evaluacion.AgregarCliente("carmen tineo","46151814","1200");
+            evaluacion.AgregarCliente("harold medina", "46307180", "1000");
+
+
             Console.WriteLine("Hola como estas");
         }
     }

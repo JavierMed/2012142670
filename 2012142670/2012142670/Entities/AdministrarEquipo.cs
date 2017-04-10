@@ -8,5 +8,7 @@ namespace Entities
 {
     class AdministrarEquipo
     {
+        int stockModelo;
+        string modelo;
     }
 }

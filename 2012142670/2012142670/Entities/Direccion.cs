@@ -9,7 +9,9 @@ namespace Entities
     class Direccion
     {
         string direccion;
+        private Ubigeo _ubigeo;
 
+        public Ubigeo Ubigeo { get { return _ubigeo; } }
         
     }
 }

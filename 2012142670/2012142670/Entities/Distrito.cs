@@ -9,5 +9,9 @@ namespace Entities
     class Distrito
     {
         string nombreDistrito { get; set; }
+        public Distrito(string nomDis)
+        {
+            nombreDistrito = nomDis;
+        }
     }
 }
