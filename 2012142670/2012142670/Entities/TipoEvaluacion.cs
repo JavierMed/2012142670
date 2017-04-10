@@ -8,5 +8,10 @@ namespace Entities
 {
     class TipoEvaluacion
     {
+        string tipoEvaluacion;
+        public TipoEvaluacion(string tipoEvaluacion)
+        {
+            this.tipoEvaluacion = tipoEvaluacion;
+        }
     }
 }

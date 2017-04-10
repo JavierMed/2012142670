@@ -12,6 +12,7 @@ namespace Entities
         List<TipoPago> _tipoPago;
         List<TipoTrabajador> _tipoTrabajador;
         List<Trabajador> _trabajador;
+        List<TipoEvaluacion> _tipoEvaluacion;
 
 
         public Evaluacion() {
@@ -26,6 +27,8 @@ namespace Entities
             }  
           
         }
+
+        //metodos para agregar una base de datos virtual
 
         public void AgregarCliente(string nom, string dni, string sueldo)
         {
@@ -42,6 +45,10 @@ namespace Entities
         public void AgregarTrabajador(string cod, string nom, string tipo)
         {
             _trabajador.Add(new Trabajador(cod,nom,tipo));
+        }
+        public void AgregarTipoEvaluacion(string tipo)
+        {
+            _tipoEvaluacion.Add(new TipoEvaluacion(tipo));
         }
 
 
