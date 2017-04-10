@@ -9,6 +9,9 @@ namespace Entities
     public class Evaluacion
     {
         List<Cliente> _cliente;
+        List<TipoPago> _tipoPago;
+        List<TipoTrabajador> _tipoTrabajador;
+        List<Trabajador> _trabajador;
 
 
         public Evaluacion() {
@@ -28,7 +31,18 @@ namespace Entities
         {
             _cliente.Add(new Cliente(nom, dni, sueldo));
         }
-
+        public void AgregarTipoPago(string tipo)
+        {
+            _tipoPago.Add(new TipoPago(tipo));
+        }
+        public void AgregarTipoTrabajador(string tipoTra)
+        {
+            _tipoTrabajador.Add(new TipoTrabajador(tipoTra));
+        }
+        public void AgregarTrabajador(string cod, string nom, string tipo)
+        {
+            _trabajador.Add(new Trabajador(cod,nom,tipo));
+        }
 
 
         public void AgregarTipoPlan(string tipo){

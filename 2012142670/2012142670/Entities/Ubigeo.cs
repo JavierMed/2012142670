@@ -10,11 +10,15 @@ namespace Entities
     {
         public string ubigeo { get; set; }
 
+        List<Departamento> _depar;
+        List<Provincia> _prov;
+        List<Distrito> _dist;
+
         public Ubigeo(string distri, string prov, string depart)
         {
-            new Departamento(depart);
-            new Provincia(prov);
-            new Distrito(distri);
+            _depar.Add(new Departamento(depart));
+            _prov.Add(new Provincia(prov));
+            _dist.Add(new Distrito(distri));
         }
     }
 }

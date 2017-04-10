@@ -15,6 +15,16 @@ namespace _2012142670
 
             evaluacion.AgregarCliente("carmen tineo","46151814","1200");
             evaluacion.AgregarCliente("harold medina", "46307180", "1000");
+            evaluacion.AgregarTipoPago("Efectivo");
+            evaluacion.AgregarTipoPago("Credito");
+            evaluacion.AgregarTipoTrabajador("Asesor");
+            evaluacion.AgregarTipoTrabajador("Supervisor");
+            evaluacion.AgregarTipoTrabajador("Vendedor");
+            evaluacion.AgregarTrabajador("01", "Javier Florez", "1");
+            evaluacion.AgregarTrabajador("02", "Santa Perez", "2");
+            evaluacion.AgregarTrabajador("03", "Remigio Tume", "1");
+            evaluacion.AgregarTrabajador("04", "Ada Guille", "3");
+
 
 
             Console.WriteLine("Hola como estas");
